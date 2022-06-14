@@ -1,4 +1,5 @@
-import React, {useEffect, useState} from 'react'
+import React, {useEffect, useState} from 'react';
+import './App.css';
 
 function App() {
   const [backendData, setBackendData] = useState([{}])
@@ -21,6 +22,7 @@ function App() {
             <p key={i}>{user}</p>
         ))
        )}
+       
     </div>
   )
 }
